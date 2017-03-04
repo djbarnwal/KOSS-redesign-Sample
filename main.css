@@ -119,3 +119,61 @@ h1 span {
     line-height: 1.5em;
     margin-left: 35px;
 }
+
+/* The Team */
+
+.team {
+    padding: 40px;
+    text-align:center;
+}
+.memb-info {
+    background: rgba(52, 152, 219, 0.9) none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+transition:all ease 0.4s;
+opacity:0;
+}
+
+.memb-info:hover {
+    opacity: 1;
+}
+.member > img {
+    height: 200px;
+}
+.member {
+    display: inline-block;
+    margin-right: 19px;
+    margin-top: 32px;
+    overflow: hidden;
+    position: relative;
+    width: 22%;
+}
+.memb-info h4 {
+    font-size: 22px;
+    margin-top: 55px;
+}
+
+.team p, .team h1, .Products h1, .Products p {
+    text-align: left;
+}
+
+/* Hiring */
+
+.hiring {
+    background: rgba(0, 0, 0, 0) url("images/3.jpg") repeat scroll 0 500px / cover ;
+    color: #fff;
+    height: 250px;
+    text-align: center;
+}
+.hiring .overlay {
+    background: rgba(52, 152, 219, 0.8) none repeat scroll 0 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.text-box {
+    padding: 50px 160px;
+}
