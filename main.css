@@ -177,3 +177,107 @@ opacity:0;
 .text-box {
     padding: 50px 160px;
 }
+
+.Products {
+    padding: 40px;
+    text-align:center;
+}
+.box img {
+    width: 100%;
+}
+
+.box {
+  border: 8px solid #222;
+  display: inline-block;
+  margin: 10px;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  width: 28%;
+  transition: all ease 0.5s;
+}
+.box:hover {
+    border-color:#ffb400;
+}
+
+#contact-us {
+  background:url('images/contact-bg.jpg');
+  background-size: cover;
+  text-align:center;
+  color:#fff;
+  position:relative;
+}
+#contact-us h2 {
+  font-size: 50px;
+  font-weight: 100;
+}
+#contact-us .overlay {
+    padding: 40px;
+}
+
+#form {
+  position: relative;
+  width: 650px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 600px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #fff;
+  border: solid 1px #eee;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #fff;
+  color: #222;
+}
+
+textarea {
+  width: 600px;
+  max-width: 600px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #eee;
+  transition: all 0.3s ease-in-out;
+  margin: 0;
+}
+
+textarea:hover {
+  background: #fff;
+  color: #222;
+}
+
+#submit {
+  width: 631px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #eee;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #222;
+}
+
+.bottom-text {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+}
