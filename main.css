@@ -1,5 +1,6 @@
 /* Global */
 
+/* Browser CSS Reset */
 body, html, div, li, ul, a{
 margin:0;
 padding:0;
@@ -7,6 +8,7 @@ border:0;
 font-size:100%;
 font:inherit;
 }
+
 body {
 font-family: "Lato","Open Sans","Calibri";
 background: transparent url("images/stardust.png") repeat scroll 0 0;
